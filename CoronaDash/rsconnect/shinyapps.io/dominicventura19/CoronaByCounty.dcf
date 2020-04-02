@@ -1,0 +1,12 @@
+name: CoronaByCounty
+title: CoronaByCounty
+username:
+account: dominicventura19
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2039735
+bundleId: 2956914
+url: https://dominicventura19.shinyapps.io/CoronaByCounty/
+when: 1585792949.08594
+asMultiple: FALSE
+asStatic: FALSE

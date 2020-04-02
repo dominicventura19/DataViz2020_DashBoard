@@ -25,7 +25,7 @@ dashboardPage(
         ## Add some more info boxes
         fluidRow(
             valueBoxOutput(width=4, "nrows"),
-            infoBoxOutput(width=6, "ncol")
+            infoBoxOutput(width=4, "ncol")
         )
     )
 )
