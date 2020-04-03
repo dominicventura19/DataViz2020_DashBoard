@@ -1,5 +1,6 @@
 library(shiny)
 library(shinydashboard)
+library(DT)
 
 dashboardPage(
     dashboardHeader(title = "My Dashboard"),
@@ -19,7 +20,7 @@ dashboardPage(
                 solidHeader = TRUE, 
                 collapsible = TRUE, 
                 footer="Read Remotely from File",
-                tableOutput("mydata")
+                dataTableOutput("mydata")
             )
         ),
         ## Add some more info boxes
