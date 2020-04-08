@@ -1,0 +1,132 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2016-01-24T10:30:30.230Z,59.6363,-153.4051,129,7.1,mww,,19,0.72,2.11,us,us10004gqp,2020-02-06T18:11:20.918Z,"86km E of Old Iliamna, Alaska",earthquake,5,1.8,,,reviewed,us,us
+2014-06-23T20:53:09.700Z,51.8486,178.7352,109,7.9,mww,,22,0.133,0.71,us,usc000rki5,2020-03-27T15:27:19.137Z,"19km SE of Little Sitkin Island, Alaska",earthquake,,1.8,,,reviewed,us,us
+2013-08-30T16:25:02.300Z,51.537,-175.2297,29,7,mww,,53,0.624,0.89,us,usb000jdt7,2019-05-15T23:59:34.634Z,"101km SW of Atka, Alaska",earthquake,,1.8,,,reviewed,us,us
+2013-01-05T08:58:14.957Z,55.228,-134.8591,8.7,7.5,mw,,,,1.51,ak,ak0138esnzr,2020-03-26T16:53:04.874Z,"Southeastern Alaska",earthquake,,1,,,reviewed,ak,ak
+2012-10-28T03:04:08.820Z,52.788,-132.101,14,7.8,mww,807,42.7,,0.99,us,usp000juhz,2020-02-28T23:38:18.423Z,"Haida Gwaii, Canada",earthquake,,,,,reviewed,us,us
+2012-04-12T07:15:48.500Z,28.696,-113.104,13,7,mww,474,95.9,,1.18,us,usp000jhr6,2020-02-28T23:28:59.457Z,"Baja California, Mexico",earthquake,,,,,reviewed,us,us
+2011-06-24T03:09:39.470Z,52.05,-171.836,52,7.3,mww,791,15.3,,1.05,us,usp000j3mq,2020-03-27T22:51:22.941Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,us
+2010-04-04T22:40:42.360Z,32.2861667,-115.2953333,9.987,7.2,mw,10,239,0.5137,0.11,ci,ci14607652,2020-04-05T23:06:51.719Z,"12km SW of Delta, B.C., MX",earthquake,1.81,31.61,,0,reviewed,ci,ci
+2010-01-12T21:53:10.060Z,18.443,-72.571,13,7,mwc,500,22.7,,0.97,us,usp000h60h,2020-02-06T21:12:16.382Z,"Haiti region",earthquake,,,,,reviewed,us,us
+2007-12-19T09:30:27.930Z,51.36,-179.509,34,7.2,mwc,702,15.9,,0.96,us,usp000fuse,2019-02-13T07:52:34.791Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,gcmt
+2006-04-20T23:25:02.150Z,60.949,167.089,22,7.6,mwc,579,18.5,,0.87,us,usp000ef1h,2020-01-04T04:32:46.238Z,"near the east coast of Koryakskiy Avtonomnyy Okrug, Russia",earthquake,,,,,reviewed,us,hrv
+2005-06-15T02:50:54.190Z,41.292,-125.953,16,7.2,mwc,420,31.4,,1.2,us,usp000dt25,2020-02-06T20:49:19.794Z,"off the coast of Northern California",earthquake,,,,,reviewed,us,hrv
+2003-11-17T06:43:06.800Z,51.146,178.65,33,7.8,mwc,604,24,,1.11,us,usp000cd1n,2020-03-27T22:36:15.408Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,hrv
+2003-03-17T16:36:17.310Z,51.272,177.978,33,7.1,mwb,607,30.3,,1.26,us,usp000bsvs,2017-11-07T18:46:52.517Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,us
+2003-03-17T16:36:09.856Z,50.3298,177.5472,5,7,mw,,,,0.44,ak,ak0033hyl1qx,2019-02-12T21:36:29.869Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,493.6,,,reviewed,ak,ak
+2003-01-22T02:06:34.610Z,18.77,-104.104,24,7.6,mwb,551,,,1.4,us,usp000bnyr,2020-03-03T01:51:23.811Z,"offshore Colima, Mexico",earthquake,,,,,reviewed,us,us
+2002-11-03T22:12:41.518Z,63.5141,-147.4529,4.2,7.9,mw,,,,1.58,ak,ak002e435qpj,2020-03-28T17:17:46.260Z,"Central Alaska",earthquake,,0.9,,,reviewed,ak,ak
+1999-12-06T23:12:33.537Z,57.3424,-154.3469,43.6,7,mw,,,,1.08,ak,ak999fmohlzt,2020-03-27T22:27:08.596Z,"Kodiak Island region, Alaska",earthquake,,2.9,,,reviewed,ak,ak
+1999-10-16T09:46:44.460Z,34.6033333,-116.265,13.73,7.1,mw,73,57,,0.31,ci,ci9108652,2020-02-12T16:45:40.301Z,"16km SW of Ludlow, CA",earthquake,0.35,31.61,,0,reviewed,ci,ci
+1999-06-15T20:42:05.930Z,18.386,-97.436,70,7,mwc,,,,1.06,us,usp00099y6,2020-03-03T01:25:17.241Z,"Puebla, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-01-11T20:28:26.020Z,18.219,-102.756,33,7.2,mwb,,,,1.09,us,usp0007vrx,2020-02-06T19:43:25.292Z,"Michoacan, Mexico",earthquake,,,,,reviewed,us,us
+1996-06-10T15:24:56.000Z,51.478,-176.847,26.3,7.3,mwc,,,,1,us,usp0007jfz,2020-03-27T22:19:55.670Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,hrv
+1996-06-10T04:03:35.480Z,51.564,-177.632,33,7.9,mwc,,,,0.9,us,usp0007jcu,2020-03-27T22:19:36.636Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,hrv
+1995-10-09T15:35:53.910Z,19.055,-104.205,33,8,mw,,,,1.3,us,usp00074vc,2020-03-03T00:54:30.598Z,"Colima, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-09-01T15:15:48.310Z,40.4055,-126.3028333,4.972,7,mw,271,271,1.504,0.34,nc,nc30056327,2020-02-06T18:02:11.665Z,"off the coast of Northern California",earthquake,2.04,2.33,,3,reviewed,nc,nc
+1992-06-28T11:57:34.130Z,34.2,-116.437,-0.097,7.3,mw,0,43.4,,0.194,ci,ci3031111,2020-03-18T16:56:48.383Z,"Landers, California Earthquake",earthquake,,0.31,,0,reviewed,ci,ci
+1992-04-25T18:06:05.180Z,40.3353333,-124.2286667,9.856,7.2,mh,9,115,0.1072,0.07,nc,nc269151,2020-03-02T23:52:45.908Z,"20km SSW of Rio Dell, California",earthquake,0.33,0.64,,0,reviewed,nc,nc
+1991-08-17T22:17:09.970Z,41.679,-125.856,1.303,7,mh,90,295,1.473,0.09,nc,nc228064,2020-03-27T10:27:39.262Z,"136km WSW of Brookings, Oregon",earthquake,1.73,11.06,,0,reviewed,nc,nc
+1991-05-30T13:17:41.970Z,54.567,-161.606,28.4,7,mw,,,,1.1,us,usp0004s9h,2020-01-03T15:17:11.409Z,"Alaska Peninsula",earthquake,,,,,reviewed,us,hrv
+1990-11-06T20:14:29.740Z,53.452,169.871,24.8,7.1,mw,,,,0.9,us,usp0004gkj,2016-11-10T00:51:10.434Z,"Komandorskiye Ostrova, Russia region",earthquake,,,,,reviewed,us,hrv
+1989-09-04T13:14:58.250Z,55.543,-156.835,11.4,7.1,mw,,,,1.2,us,usp0003z7h,2020-03-27T22:00:51.352Z,"south of Alaska",earthquake,,,,,reviewed,us,hrv
+1988-03-06T22:35:38.140Z,56.953,-143.032,10,7.8,mw,,,,,us,usp0003dnb,2020-03-27T21:54:26.941Z,"Gulf of Alaska",earthquake,,,,,reviewed,ags,hrv
+1987-11-30T19:23:19.590Z,58.679,-142.786,10,7.9,mw,,,,,us,usp0003aq8,2020-03-27T21:53:21.516Z,"Gulf of Alaska",earthquake,,,,,reviewed,spe,hrv
+1986-05-07T22:47:10.870Z,51.52,-174.776,33,8,mw,,,,1.1,us,usp0002tmu,2020-03-27T21:45:53.058Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,hrv
+1986-04-30T07:07:18.120Z,18.404,-102.973,26.5,7,mw,,,,1.2,us,usp0002tcb,2020-02-06T19:02:35.715Z,"Michoacan, Mexico",earthquake,,,,,reviewed,us,nc
+1985-09-19T13:17:47.350Z,18.19,-102.533,27.9,8,mw,,,,1.3,us,usp0002jwe,2020-02-06T19:01:11.141Z,"Michoacan, Mexico",earthquake,,3.8,,,reviewed,us,hrv
+1981-10-25T03:22:15.570Z,18.048,-102.084,33,7.3,ms,,,,1.2,us,usp0001gnv,2020-02-06T18:53:24.571Z,"Guerrero, Mexico",earthquake,,,,16,reviewed,us,us
+1981-01-30T08:52:44.100Z,51.744,176.274,33,7,ms,,,,,us,usp0001byq,2018-06-04T20:43:45.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,us
+1980-11-08T10:27:34.000Z,41.117,-124.253,19,7.2,mw,,,,,us,usp0001aq1,2020-02-06T18:48:40.445Z,"offshore Northern California",earthquake,,,,,reviewed,us,01023
+1979-02-28T21:27:06.100Z,60.642,-141.593,15,7.1,ms,,,,,us,usp0000z2a,2020-02-06T18:40:33.616Z,"Southern Alaska",earthquake,,,,,reviewed,ag,us
+1975-11-29T14:47:40.100Z,19.333,-155.0015,8.95,7.7,mw,,,,,official,official19751129144740_9,2020-02-06T18:06:27.468Z,"Kalapana Earthquake",earthquake,10,5,,,reviewed,official,official
+1975-02-02T08:43:39.100Z,53.113,173.497,10,7.6,ms,,,,,us,usp00009ry,2020-03-27T16:59:30.911Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,us,us
+1973-01-30T21:01:12.500Z,18.481,-102.996,43,7.5,ms,,,,,us,usp00000bf,2020-02-06T18:21:59.069Z,"Michoacan, Mexico",earthquake,,,,,reviewed,us,us
+1972-07-30T21:45:17.000Z,56.724,-135.853,25,7.6,mw,,,,,iscgem,iscgem772060,2020-03-26T18:24:08.598Z,"Southeastern Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1971-05-02T06:08:27.000Z,51.396,-177.318,24.2,7,mw,,,,,iscgem,iscgem784013,2020-03-26T19:04:02.423Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1971-02-07T02:29:30.000Z,51.409,-176.974,28.9,7,mw,,,,,iscgem,iscgem786954,2020-03-26T19:15:43.466Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1970-06-24T13:09:13.000Z,51.692,-131.055,18.3,7.4,mw,,,,,iscgem,iscgem794827,2015-05-13T18:53:04.000Z,"Haida Gwaii Region, Canada",earthquake,,,,,automatic,iscgem,iscgem
+1970-02-28T10:52:33.000Z,52.487,-174.915,164.1,7.1,mw,,,,,iscgem,iscgem799531,2019-05-20T22:39:30.314Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1965-09-04T14:32:51.000Z,58.09,-152.525,27.8,7,mw,,,,,iscgem,iscgem853605,2020-03-26T21:44:59.066Z,"Kodiak Island region, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1965-07-02T20:58:40.000Z,52.99,-167.739,45,7.8,mw,,,,,iscgem,iscgem855112,2020-03-26T21:53:25.583Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1965-03-30T02:27:04.600Z,50.32,177.93,20,7.65,mw,,,,,ushis,ushis2799,2020-03-27T15:39:18.630Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,ka
+1965-02-04T08:40:44.000Z,51.443,179.605,30,7.3,mw,,,,,iscgem,iscgem859264,2019-05-16T16:59:34.593Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1965-02-04T05:01:22.000Z,51.251,178.715,30.3,8.7,mw,,,,,official,official19650204050122_30,2020-03-27T10:40:42.559Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,official
+1964-07-06T07:22:13.000Z,18.136,-100.605,93.3,7.3,mw,,,,,iscgem,iscgem865780,2020-03-26T22:18:59.530Z,"Guerrero, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1964-03-28T03:36:16.000Z,60.908,-147.339,25,9.2,mw,,,,,official,official19640328033616_30,2020-03-02T21:47:55.958Z,"1964 Prince William Sound Earthquake, Alaska",earthquake,,,,,automatic,iscgem,official
+1959-08-18T06:37:14.500Z,44.712,-111.215,5,7.3,mw,,,,,ushis,ushis2396,2020-03-27T00:15:15.070Z,"The 1959 Hebgen Lake Earthquake, Montana",earthquake,,,,,reviewed,ushis,dsr
+1958-07-10T06:15:58.000Z,58.23,-136.712,10,7.8,mw,,,,,iscgem,iscgem884702,2020-03-27T00:43:01.080Z,"Southeastern Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1958-04-07T15:30:45.000Z,65.915,-156.343,15,7.1,mw,,,,,iscgem,iscgem884131,2020-03-27T00:34:56.534Z,"northern Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-04-10T11:30:03.000Z,55.869,-153.964,15,7,mw,,,,,iscgem,iscgem886362,2019-05-09T23:16:02.205Z,"south of Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-22T14:21:15.000Z,53.778,-165.771,46.6,7.1,mw,,,,,iscgem,iscgem886230,2020-03-27T00:59:18.240Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-16T02:34:18.000Z,51.419,-178.87,25,7.2,mw,,,,,iscgem,iscgem886172,2019-05-09T21:52:13.173Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-14T14:47:50.000Z,51.196,-176.733,25,7.1,mw,,,,,iscgem,iscgem886155,2019-05-09T21:48:47.920Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-12T11:45:00.000Z,51.481,-177.243,20,7.1,mw,,,,,iscgem,iscgem886120,2019-05-09T21:37:05.018Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-11T14:55:24.000Z,51.339,-178.602,25,7,mw,,,,,iscgem,iscgem886103,2019-05-09T21:16:06.536Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-11T09:58:52.000Z,52.691,-169.191,35,7.1,mw,,,,,iscgem,iscgem886098,2019-05-09T21:13:31.889Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1957-03-09T14:22:33.000Z,51.499,-175.626,25,8.6,mw,,,,,official,official19570309142233_30,2020-03-27T10:39:06.606Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,official
+1955-03-14T13:12:04.000Z,52.5,-173.5,100,7,uk,,,,,ushis,ushis2022,2018-06-04T20:43:44.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,pas
+1954-12-16T11:07:11.000Z,39.283,-118.117,15,7.26,mw,,,,,ushis,ushis1985,2020-03-27T02:40:38.042Z,"Nevada",earthquake,,,,,reviewed,ushis,hht
+1954-04-29T11:34:39.000Z,29.112,-113.024,10,7.2,mw,,,,,iscgem,iscgem890579,2020-03-27T02:26:43.133Z,"Baja California, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1953-01-05T07:48:28.000Z,53.631,170.973,21.3,7,mw,,,,,iscgem,iscgem891410,2019-05-08T00:48:17.764Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1952-07-21T11:52:15.460Z,34.9581667,-118.998,6,7.5,mw,8,146,,0.39,ci,ci3319401,2020-02-12T19:19:25.792Z,"6km WNW of Grapevine, CA",earthquake,1.42,31.61,,0,reviewed,ci,ci
+1949-08-22T04:01:18.000Z,53.673,-133.015,10,8,mw,,,,,official,official19490822040118000_10,2020-03-27T04:53:05.239Z,"Haida Gwaii, Canada",earthquake,,,,,reviewed,iscgem,official
+1948-05-14T22:31:49.000Z,54.61,-161.19,25,7.1,mw,,,,,iscgem,iscgem897327,2020-03-27T04:59:46.953Z,"Alaska Peninsula",earthquake,,,,,automatic,iscgem,iscgem
+1947-10-16T02:09:51.000Z,64.131,-148.613,26,7.2,mw,,,,,iscgem,iscgem898078,2020-03-27T05:10:01.825Z,"Central Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1946-11-01T11:14:28.000Z,51.752,-174.453,25,7,mw,,,,,iscgem,iscgem898643,2020-03-27T05:18:06.246Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1946-08-08T13:28:33.000Z,19.538,-69.657,15,7,mw,,,,,iscgem,iscgem898519,2020-03-27T05:16:37.123Z,"Dominican Republic region",earthquake,,,,,automatic,iscgem,iscgem
+1946-08-04T17:51:10.000Z,19.083,-69.248,15,7.5,mw,,,,,iscgem,iscgem898498,2020-03-27T05:16:18.665Z,"Dominican Republic region",earthquake,,,,,automatic,iscgem,iscgem
+1946-06-23T17:13:19.000Z,49.76,-125.34,30,7.3,ms,,,,,ushis,ushis1554,2020-03-27T05:13:34.320Z,"Vancouver Island, Canada region",earthquake,,,,,reviewed,ushis,gr
+1946-04-01T12:29:01.000Z,53.492,-162.832,15,8.6,mw,,,,,official,official19460401122901_30,2020-03-27T10:37:49.785Z,"1946 Aleutian Islands (Unimak Island) Earthquake, Alaska",earthquake,,,,,automatic,iscgem,official
+1944-07-27T00:04:23.000Z,54,-165.5,70,7.1,mb,,,,,ushis,ushis1476,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1943-11-03T14:32:21.000Z,61.776,-151.051,15,7.6,mw,,,,,iscgemsup,iscgemsup900071,2020-03-27T10:07:08.077Z,"Southern Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1943-07-29T03:02:17.000Z,18.905,-67.131,15,7.7,mw,,,,,iscgem,iscgem899944,2020-03-27T05:38:13.296Z,"Puerto Rico region",earthquake,,,,,automatic,iscgem,iscgem
+1941-04-15T19:09:57.000Z,18.69,-102.994,30,7.6,mw,,,,,iscgem,iscgem900764,2020-03-27T05:50:21.598Z,"Michoacan, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1940-07-14T05:52:54.500Z,52,178.2,65,7.4,mb,,,,,ushis,ushis1324,2018-06-04T20:43:44.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1939-09-08T12:04:47.000Z,51.035,174.97,15,7.1,mw,,,,,iscgem,iscgem902140,2015-05-13T18:52:44.000Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1939-05-02T13:14:54.000Z,29.268,-113.54,10,7,mw,,,,,iscgemsup,iscgemsup901929,2020-03-27T10:08:20.803Z,"Baja California, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1938-11-10T20:18:49.000Z,55.178,-158.181,35,8.23,mw,,,,,official,official19381110201849000_35,2020-03-27T10:37:20.978Z,"Alaska Peninsula",earthquake,,,,,reviewed,iscgem,official
+1937-09-03T18:48:12.000Z,52.5,-177.5,80,7.2,mb,,,,,ushis,ushis1182,2018-06-04T20:43:44.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1937-07-22T17:09:33.000Z,64.726,-146.565,10,7,mw,,,,,iscgem,iscgem903173,2020-03-27T06:26:55.008Z,"Central Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1934-11-30T02:05:16.000Z,18.499,-105.276,15,7.1,mw,,,,,iscgem,iscgem905294,2020-03-27T07:08:30.147Z,"offshore Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1932-06-22T12:59:31.000Z,19.373,-104.224,25,7.7,mw,,,,,iscgem,iscgem906247,2020-03-27T07:20:27.684Z,"Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1932-06-18T10:12:11.000Z,19.419,-103.907,15,7.8,mw,,,,,iscgem,iscgem906234,2020-03-27T07:20:11.740Z,"Colima, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1932-06-03T10:36:56.000Z,19.786,-103.784,15,8.1,mw,,,,,iscgem,iscgem906183,2020-03-27T07:19:34.759Z,"Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1929-12-17T10:58:42.000Z,53.559,171.972,20,7.8,mw,,,,,iscgem,iscgem908419,2019-05-03T22:03:59.470Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1929-07-07T21:23:17.000Z,51.474,-177.771,35,7.3,mw,,,,,iscgem,iscgem908198,2019-05-03T21:52:02.398Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1929-07-05T14:19:09.000Z,51.473,-178.152,35,7,mw,,,,,iscgem,iscgem908189,2019-05-03T21:42:42.745Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1929-05-26T22:40:08.000Z,51,-130.713,15,7.3,mw,,,,,iscgem,iscgem908101,2020-03-27T07:50:02.512Z,"Haida Gwaii Region, Canada",earthquake,,,,,automatic,iscgem,iscgem
+1929-03-07T01:34:42.000Z,50.852,-169.753,15,7.8,mw,,,,,iscgem,iscgem907930,2020-03-27T07:48:15.548Z,"south of the Aleutian Islands",earthquake,,,,,automatic,iscgem,iscgem
+1927-10-24T15:59:55.000Z,57.776,-136.67,10,7.3,mw,,,,,iscgem,iscgem909582,2020-03-27T08:15:02.678Z,"Southeastern Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1926-10-13T19:08:18.000Z,51.49,-175.288,40,7,mw,,,,,iscgem,iscgem910162,2019-05-03T21:15:11.633Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1925-11-16T11:55:01.000Z,18.496,-106.846,15,7,mw,,,,,iscgem,iscgem910739,2020-03-27T08:34:37.838Z,"off the coast of Jalisco, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1925-08-19T12:07:32.000Z,55.35,167.086,15,7,mw,,,,,iscgem,iscgem910653,2015-05-13T18:52:42.000Z,"Komandorskiye Ostrova, Russia region",earthquake,,,,,automatic,iscgem,iscgem
+1923-05-04T16:26:48.000Z,55.828,-156.832,25,7,mw,,,,,iscgem,iscgem911354,2019-05-03T19:51:00.278Z,"south of Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1922-01-31T13:17:31.000Z,41.115,-125.54,15,7.3,mw,,,,,iscgem,iscgem911811,2020-03-27T08:55:00.989Z,"off the coast of Northern California",earthquake,,,,,automatic,iscgem,iscgem
+1918-10-11T14:14:42.000Z,18.802,-67.219,15,7.1,mw,,,,,iscgem,iscgem913306,2020-02-18T19:20:37.608Z,"Puerto Rico region",earthquake,,,,,automatic,iscgem,iscgem
+1917-05-31T08:47:32.000Z,54.934,-159.433,35,7.4,mw,,,,,iscgem,iscgem913517,2019-05-03T00:02:06.873Z,"south of Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1916-04-18T04:01:48.000Z,53.25,-170,170,7.4,mb,,,,,ushis,ushis589,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1916-02-06T21:51:33.000Z,50.459,179.051,15,7,mw,,,,,iscgem,iscgem913761,2019-05-02T23:57:18.794Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1913-06-22T13:49:52.000Z,48,-178,,7.2,uk,,,,,ushis,ushis549,2018-06-04T20:43:44.000Z,"south of the Aleutian Islands",earthquake,,,,,reviewed,ushis,dda
+1912-11-07T07:40:24.000Z,57.5,-155,90,7.3,mb,,,,,ushis,ushis541,2018-06-04T20:43:44.000Z,"Kodiak Island region, Alaska",earthquake,,,,,reviewed,ushis,abe
+1912-07-07T07:57:00.000Z,63.07,-146.14,,7.2,ms,,,,,ushis,ushis535,2018-06-04T20:43:44.000Z,"Central Alaska",earthquake,,,,,reviewed,ushis,abe
+1912-01-31T20:11:48.000Z,61,-147.5,80,7,mb,,,,,ushis,ushis529,2018-06-04T20:43:44.000Z,"Southern Alaska",earthquake,,,,,reviewed,ushis,abe
+1911-09-17T03:26:00.000Z,51,180,,7.1,ms,,,,,ushis,ushis523,2018-06-04T20:43:44.000Z,"",earthquake,,,,,reviewed,ushis,abe
+1911-06-07T11:02:50.000Z,18.517,-102.442,30,7.6,mw,,,,,iscgem,iscgem16958148,2020-03-26T17:43:34.231Z,"Michoacan, Mexico",earthquake,,,,,automatic,iscgem,iscgem
+1910-09-09T01:13:18.000Z,50.75,179.38,,7,ms,,,,,ushis,ushis511,2018-06-04T20:43:44.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1909-09-08T16:49:48.000Z,52.5,-169,90,7.4,mb,,,,,ushis,ushis491,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,gr
+1909-04-10T19:36:00.000Z,52,175,,7,ms,,,,,ushis,ushis484,2018-06-04T20:43:44.000Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1908-05-15T08:31:36.000Z,59,-141,,7,ms,,,,,ushis,ushis474,2018-06-04T20:43:44.000Z,"Southeastern Alaska",earthquake,,,,,reviewed,ushis,abe
+1907-09-02T16:01:00.000Z,52.59,169.73,,7.4,ms,,,,,ushis,ushis467,2018-06-04T20:43:44.000Z,"south of the Aleutian Islands",earthquake,,,,,reviewed,ushis,abe
+1906-12-23T17:22:00.000Z,56.85,-153.9,,7.3,ms,,,,,ushis,ushis464,2018-06-04T20:43:44.000Z,"Kodiak Island region, Alaska",earthquake,,,,,reviewed,ushis,abe
+1906-08-17T00:11:10.000Z,51.853,178.18,110,8.3,mw,,,,,iscgem,iscgem16957912,2019-05-02T23:45:17.938Z,"Rat Islands, Aleutian Islands, Alaska",earthquake,,,,,automatic,iscgem,iscgem
+1906-04-18T13:12:27.700Z,37.75,-122.55,11.7,7.9,mw,,,,,official,official19060418131226300_12,2020-02-18T19:25:08.798Z,"The 1906 San Francisco Earthquake",earthquake,10,7,,,reviewed,official,official
+1905-09-15T06:02:00.000Z,52.06,-171.45,,7.4,ms,,,,,ushis,ushis441,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1905-03-22T03:38:00.000Z,51.28,174.83,,7,ms,,,,,ushis,ushis434,2018-06-04T20:43:44.000Z,"Near Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1905-02-14T08:46:00.000Z,50.73,-178.55,,7.3,ms,,,,,ushis,ushis433,2018-06-04T20:43:44.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1904-08-27T21:56:00.000Z,64.66,-148.08,,7.3,ms,,,,,ushis,ushis431,2018-06-04T20:43:44.000Z,"Central Alaska",earthquake,,,,,reviewed,ushis,abe
+1903-01-17T16:05:00.000Z,50.85,-175.16,,7,ms,,,,,ushis,ushis411,2018-06-04T20:43:44.000Z,"Andreanof Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1902-01-01T05:20:30.000Z,52.38,-167.45,,7,ms,,,,,ushis,ushis400,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1901-12-31T09:02:30.000Z,51.45,-171.02,,7.1,ms,,,,,ushis,ushis399,2018-06-04T20:43:44.000Z,"Fox Islands, Aleutian Islands, Alaska",earthquake,,,,,reviewed,ushis,abe
+1901-12-30T22:34:00.000Z,52,-160,,7,ms,,,,,ushis,ushis397,2018-06-04T20:43:44.000Z,"south of Alaska",earthquake,,,,,reviewed,ushis,abe
+1900-10-09T12:25:00.000Z,57.09,-153.48,,7.86,mw,,,,,ushis,ushis391,2019-05-02T20:46:08.555Z,"Kodiak Island region, Alaska",earthquake,,,,,reviewed,ushis,pt

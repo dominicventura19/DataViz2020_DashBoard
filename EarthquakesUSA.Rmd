@@ -1,0 +1,18 @@
+---
+title: "EarthquakesUSA"
+author: "Dominic Ventura"
+date: "4/7/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(maps)
+
+
+earthquakes <- read_csv("/Users/dominicventura/Data Visualization/DataVizMapping/DataViz2020_Earthquakes/query.csv")
+
+
+
+```
+
