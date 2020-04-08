@@ -12,7 +12,7 @@ dashboardPage(
     fluidRow(
       box(width=6, 
           status="info", 
-          title="Corona Cases by County",
+          title="Earthquakes of 7+ Magnitude",
           solidHeader = TRUE,
           plotOutput("myplot")
       ),
@@ -27,8 +27,8 @@ dashboardPage(
     ),
     ## Add some more info boxes
     fluidRow(
-      valueBoxOutput(width=4, "nrows"),
-      infoBoxOutput(width=4, "ncol")
+      valueBoxOutput(width=6, "nrows"),
+      infoBoxOutput(width=6, "ncol")
     )
   )
 )

@@ -7,7 +7,7 @@ library(mapproj)
 library(DT)
 library(tidyverse)
 
-earthquakes <- read_csv("/Users/dominicventura/Data Visualization/DataVizMapping/DataViz2020_Earthquakes/Earthquakes/query.csv")
+earthquakes <- read_csv("earthquakes.csv")
 
 shinyServer(function(input, output, session) {
   
@@ -19,37 +19,18 @@ shinyServer(function(input, output, session) {
   
   output$mydata <- renderDataTable({
     df <- df()
-    dta <- df %>% select(mag, magSource)
-    
-    
-    count <- aggregate(corona$cases, by=list(Category=corona$county), FUN=sum)
-    colnames(count) <- c("County", "Count")
-    count
+    dta <- df %>% group_by(country) %>% count() %>% na.omit() %>% arrange(desc(n))
+    colnames(dta) <- c("Country", "# of Earthquakes")
+    dta
+  
   })
   
   output$myplot <- renderPlot({
-    df <- df()
-    dta <- df
-    corona <- dta %>% filter(state == "Florida")
+    world <- map_data('world')
     
-    corona <- aggregate(corona$cases, by=list(Category=corona$county), FUN=sum)
-    colnames(corona) <- c("County", "Count")
-    
-    
-    countydata <- map_data("county")
-    countydata1 <- countydata %>% filter(region == "florida")
-    countydata1$subregion <- tolower(countydata1$subregion)
-    corona$County <- tolower(corona$County)
-    
-    countydata <- countydata %>% mutate(subregion = fct_recode(subregion, `st. johns` = "st johns", 
-                                                               `st. lucie` = "st lucie", `desoto` = "de soto"))
-    
-    coronaMap <- left_join(countydata1, corona, by = c(subregion = "County"))
-    
-    p <- ggplot(coronaMap, aes(x = long, y = lat, group = group, fill = Count)) + 
-      geom_polygon(color = "black", size = 0.1) + theme_minimal() +
-      labs(x = "Longitude", y = "Latitude", fill = "Count") + 
-      coord_map(projection = "albers", lat0 = 25, lat1 = 31)
+    p <- ggplot() + geom_map(data = world, map = world, aes(x = long, y=lat, group=group, map_id=region), fill="white", colour="#7f7f7f", size=0.5) + 
+      geom_point(data = earthquakes, aes(x=longitude, y = latitude, colour = mag)) + 
+      scale_colour_gradient(low = "green",high = "magenta") 
     return(p)
   })
   
