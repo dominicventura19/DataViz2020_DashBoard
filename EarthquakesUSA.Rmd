@@ -5,13 +5,17 @@ date: "4/7/2020"
 output: html_document
 ---
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(tidyverse)
 library(maps)
+library(ggplot2)
 
 
 earthquakes <- read_csv("/Users/dominicventura/Data Visualization/DataVizMapping/DataViz2020_Earthquakes/query.csv")
 
+world <- map_data('world')
+
+ggplot() + geom_map(data = world, map = world, aes(x = long, y=lat, group=group, map_id=region), fill="white", colour="#7f7f7f", size=0.5) + geom_point(data = earthquakes, aes(x=longitude, y = latitude, colour = mag)) + scale_colour_gradient(low = "green",high = "magenta") 
 
 
 ```
