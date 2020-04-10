@@ -1,0 +1,55 @@
+---
+title: "EarthquakesUSA"
+author: "Dominic Ventura"
+date: "4/7/2020"
+output: html_document
+---
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(maps)
+library(ggplot2)
+library(lubridate)
+library(Hmisc)
+
+
+earthquakes <- read_csv("/Users/dominicventura/Data Visualization/DataVizMapping/DataViz2020_Earthquakes/Earthquakes/query.csv") 
+
+countrySplit <- strsplit(earthquakes$place, ",")
+
+country <- c()
+for (i in 1:length(countrySplit)) {
+  country[i] <- countrySplit[[i]][2] 
+}
+
+#earthquakes <- cbind(earthquakes, country)
+#earthquakes %>% group_by(country) %>% count() %>% na.omit()
+
+#write.csv(earthquakes, "earthquakes.csv")
+
+world <- map_data('world')
+
+unique(earthquakes$country) %>% na.omit()
+
+a <- earthquakes %>% filter(country == "Russia")
+
+p <- ggplot() + geom_map(data = world, map = world, aes(x = long, y=lat, group=group, map_id=region), fill="white", colour="#7f7f7f", size=0.5) + 
+  geom_point(data = a, aes(x=longitude, y = latitude, colour = mag)) + 
+  scale_colour_gradient(low = "green",high = "magenta") 
+
+p
+
+
+num <- year(as.Date(earthquakes$time))
+
+d <- earthquakes %>% select(time, country) %>% filter(country == "B.C.") %>% group_by(year(as.Date(time))) %>% count() %>% ungroup() %>% mutate(new = cumsum(n))
+
+colnames(d) <- c("Year", "Quakes in year", "Overall")
+
+d$Year <- floor(d$Year)
+
+ggplot(d, aes(x=Year, y=Overall)) + geom_point() + geom_line()
+
+
+```
+
