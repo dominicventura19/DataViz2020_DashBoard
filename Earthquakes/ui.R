@@ -78,8 +78,12 @@ dashboardPage(
       tabItem(tabName = "series",
               fluidRow(
                 box(
-                  selectInput("countriesTS", label = "Choose a country/state", choices = sort(c))
+                  selectInput("countriesTS", label = "Choose a country/state", choices = sort(c)),
+                  checkboxInput("linfit", "Linear Fit")
                 ),
+                br(),
+                br(),
+                br(),
                 br(),
                 br(),
                 br(),

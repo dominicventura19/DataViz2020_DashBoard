@@ -80,8 +80,13 @@ shinyServer(function(input, output, session) {
     colnames(TSEarthquakes) <- c("Year", "Quakes in year", "Overall")
     
     
-    TSeries <- ggplot(TSEarthquakes, aes(x=Year, y=Overall)) + geom_point(colour = "red", size = 2) + geom_line()
+    TSeries <- ggplot(TSEarthquakes, aes(x=Year, y=Overall)) + geom_point(colour = "red", size = 2) + 
+      geom_line()
+    
+    if (input$linfit) TSeries <- TSeries + geom_smooth(method = "lm")
+    
     return(ggplotly(TSeries))
+    
     
   })
   

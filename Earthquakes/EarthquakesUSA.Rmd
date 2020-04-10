@@ -42,14 +42,15 @@ p
 
 num <- year(as.Date(earthquakes$time))
 
-d <- earthquakes %>% select(time, country) %>% filter(country == "B.C.") %>% group_by(year(as.Date(time))) %>% count() %>% ungroup() %>% mutate(new = cumsum(n))
+d <- earthquakes %>% select(time, country) %>% filter(country == "Russia") %>% group_by(year(as.Date(time))) %>% count() %>% ungroup() %>% mutate(new = cumsum(n))
 
 colnames(d) <- c("Year", "Quakes in year", "Overall")
 
-d$Year <- floor(d$Year)
+lm.obj <- lm(Overall ~ Year, data = d)
 
 ggplot(d, aes(x=Year, y=Overall)) + geom_point() + geom_line()
-
+plot(d$Year, d$Overall)
+abline(lm.obj)
 
 ```
 
