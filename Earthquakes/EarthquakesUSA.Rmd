@@ -10,7 +10,6 @@ library(tidyverse)
 library(maps)
 library(ggplot2)
 library(lubridate)
-library(Hmisc)
 
 
 earthquakes <- read_csv("/Users/dominicventura/Data Visualization/DataVizMapping/DataViz2020_Earthquakes/Earthquakes/query.csv") 
@@ -22,7 +21,7 @@ for (i in 1:length(countrySplit)) {
   country[i] <- countrySplit[[i]][2] 
 }
 
-#earthquakes <- cbind(earthquakes, country)
+earthquakes <- cbind(earthquakes, country)
 #earthquakes %>% group_by(country) %>% count() %>% na.omit()
 
 #write.csv(earthquakes, "earthquakes.csv")
@@ -52,5 +51,7 @@ ggplot(d, aes(x=Year, y=Overall)) + geom_point() + geom_line()
 plot(d$Year, d$Overall)
 abline(lm.obj)
 
+
+unique(earthquakes$country) %>% na.omit()
 ```
 

@@ -1,9 +1,9 @@
 library(shiny)
 library(tidyverse)
-library(shiny)
 library(shinydashboard)
 library(DT)
 library(plotly)
+library(lubridate)
 
 dashboardPage(
   dashboardHeader(title = "My Dashboard"),
@@ -22,7 +22,7 @@ dashboardPage(
                               choices = list(All = "All", Specific = "Specific", Date = "Date")),
                   conditionalPanel(
                     condition = "input.options == 'Specific' ",
-                    selectInput("specific", label = "Countries", choices = sort(c), multiple = T, selected = "")
+                    selectInput("specific", label = "Countries/States", choices = "", multiple = T, selected = "")
                   ),
                   conditionalPanel(
                     condition = "input.options == 'Date' ",
@@ -78,7 +78,7 @@ dashboardPage(
       tabItem(tabName = "series",
               fluidRow(
                 box(
-                  selectInput("countriesTS", label = "Choose a country/state", choices = sort(c)),
+                  selectInput("countriesTS", label = "Choose a country/state", choices = ""),
                   checkboxInput("linfit", "Linear Fit")
                 ),
                 br(),
