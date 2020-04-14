@@ -5,9 +5,9 @@ account: dominicventura19
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2096377
-bundleId: 2998644
+bundleId: 3009066
 url: https://dominicventura19.shinyapps.io/Earthquakes/
-when: 1586566204.43463
+when: 1586818687.86229
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: earthquakes.csv|EarthquakesUSA.Rmd

@@ -64,7 +64,7 @@ shinyServer(function(input, output, session) {
     }
    
   
-  })
+  }, options = list(pageLength = 6))
 
   observeEvent(input$options, {
     if (input$options == "Specific") {
@@ -153,6 +153,10 @@ shinyServer(function(input, output, session) {
     
   })
   
+  observeEvent(input$countriesTS,{
+    updateSliderInput(session, "span", min = 0.5, max =1.8, value = 0.1)  
+  })
+  
   output$myTimeSeries <- renderPlotly({
     df <- df()
     countrySplit <- strsplit(df$place, ",")
@@ -162,16 +166,18 @@ shinyServer(function(input, output, session) {
     }
     df <- cbind(df, country)
     
-    TSEarthquakes <- df %>% select(time, country) %>% filter(country == input$countriesTS) %>% 
-                    group_by(year(as.Date(time))) %>% count() %>% ungroup() %>% mutate(new = cumsum(n))
-    
-    colnames(TSEarthquakes) <- c("Year", "Quakes in year", "Overall")
+    TSEarthquakes <- df %>% select(time, country, mag) %>% filter(country == input$countriesTS) 
     
     
-    TSeries <- ggplot(TSEarthquakes, aes(x=Year, y=Overall)) + geom_point(colour = "red", size = 2) + 
-      geom_line()
+    #%>% filter(country == input$countriesTS) %>% 
+     #               group_by(year(as.Date(time))) %>% count() %>% ungroup() %>% mutate(new = cumsum(n))
     
-    if (input$linfit) TSeries <- TSeries + geom_smooth(method = "lm")
+    colnames(TSEarthquakes) <- c("Year", "Quakes in year", "Magnitude")
+    
+    
+    TSeries <- ggplot(TSEarthquakes, aes(x=Year, y=Magnitude)) + geom_point()   #+geom_line()
+    
+    if (input$linfit) TSeries <- TSeries + geom_smooth(span = input$span)
     
     return(ggplotly(TSeries))
     

@@ -17,7 +17,10 @@ dashboardPage(
     tabItems(
       tabItem(tabName = "MnT",
               fluidRow(
-                box(
+                box(width = 6,
+                    solidHeader = TRUE,
+                    status = "info",
+                    title = "Please Select an Option",
                   selectInput("options", "Plot every earthquake, ones from specific countries/states, or by date?", 
                               choices = list(All = "All", Specific = "Specific", Date = "Date")),
                   conditionalPanel(
@@ -35,38 +38,31 @@ dashboardPage(
                   )
                   
                 ),
-                  
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
+            
                
-                box(width=6, 
+                box(width=6,
+                    height=470 ,
                     status="info", 
                     title="Earthquakes of 7+ Magnitude from 1900 to 2020",
                     solidHeader = TRUE,
                     plotOutput("myplot")
                 ),
                 box(width=6, 
+                    height=470,
                     status="warning", 
                     title = "Data Frame",
                     solidHeader = TRUE, 
                     collapsible = TRUE, 
                     footer="Read Remotely from File",
                     dataTableOutput("mydata")
-                )
+                ),
+                br(),
+                box(width = 6,
+                    status = "warning",
+                    title = "Richter Scale of Earthquake Magnitude",
+                    tags$img(src = "RichterScale2.png", height = 500, width = 500),
+                    solidHeader = TRUE, 
+                    collapsible = TRUE)
               ),
               ## Add some more info boxes
               fluidRow(
@@ -77,20 +73,17 @@ dashboardPage(
       
       tabItem(tabName = "series",
               fluidRow(
-                box(
+                box(width = 6,
+                  status = "warning",
+                  solidHeader = T,
+                  title = "Select an Input",
                   selectInput("countriesTS", label = "Choose a country/state", choices = ""),
-                  checkboxInput("linfit", "Linear Fit")
+                  checkboxInput("linfit", "Linear Fit"),
+                  conditionalPanel(
+                    condition = "input.linfit",
+                    sliderInput("span", label = "Change Smoothness", min = 0.5, max = 1.8, value = 0.5, step = 0.05)
+                  )
                 ),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
-                br(),
                 
                 box(
                   width=6,
